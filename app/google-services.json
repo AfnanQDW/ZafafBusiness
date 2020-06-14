@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "841965836996",
+    "firebase_url": "https://zafafbusiness.firebaseio.com",
+    "project_id": "zafafbusiness",
+    "storage_bucket": "zafafbusiness.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841965836996:android:ecaca9a5d92908418d0791",
+        "android_client_info": {
+          "package_name": "lubna.proiectandroid.com.zafafbusiness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841965836996-570epk5v6s0s2q7h21q1ci30qqie7pv5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lubna.proiectandroid.com.zafafbusiness",
+            "certificate_hash": "6603df2893893388861c60c8851144203c928a9d"
+          }
+        },
+        {
+          "client_id": "841965836996-rd0iv97ic0csh4ln1ishvtaufbh9q45t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9PA4bCeR5gT7-bdWBKQ148CbSqPHkATE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "841965836996-rd0iv97ic0csh4ln1ishvtaufbh9q45t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
