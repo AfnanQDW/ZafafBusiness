@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "841965836996",
-    "firebase_url": "https://zafafbusiness.firebaseio.com",
-    "project_id": "zafafbusiness",
-    "storage_bucket": "zafafbusiness.appspot.com"
+    "project_number": "714562507240",
+    "firebase_url": "https://zefaf-5b59a.firebaseio.com",
+    "project_id": "zefaf-5b59a",
+    "storage_bucket": "zefaf-5b59a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:841965836996:android:ecaca9a5d92908418d0791",
+        "mobilesdk_app_id": "1:714562507240:android:efb57f187e661c90cb145d",
         "android_client_info": {
-          "package_name": "lubna.proiectandroid.com.zafafbusiness"
+          "package_name": "com.afq.zefaf"
         }
       },
       "oauth_client": [
         {
-          "client_id": "841965836996-570epk5v6s0s2q7h21q1ci30qqie7pv5.apps.googleusercontent.com",
+          "client_id": "714562507240-shd1mik8ud155sn2hrq3dmjc1au702c9.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "lubna.proiectandroid.com.zafafbusiness",
-            "certificate_hash": "6603df2893893388861c60c8851144203c928a9d"
+            "package_name": "com.afq.zefaf",
+            "certificate_hash": "271ed95a5aaee8086b10568bfea8439f1585390d"
           }
         },
         {
-          "client_id": "841965836996-rd0iv97ic0csh4ln1ishvtaufbh9q45t.apps.googleusercontent.com",
+          "client_id": "714562507240-tg8t0rhsdbpofs6b9pdooi2nqg82jgil.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD9PA4bCeR5gT7-bdWBKQ148CbSqPHkATE"
+          "current_key": "AIzaSyBxnPpqetayVcn_ll-6DbY8XysJyYFpzIA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "841965836996-rd0iv97ic0csh4ln1ishvtaufbh9q45t.apps.googleusercontent.com",
+              "client_id": "714562507240-tg8t0rhsdbpofs6b9pdooi2nqg82jgil.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
