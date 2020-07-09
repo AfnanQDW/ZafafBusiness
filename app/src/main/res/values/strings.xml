@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">زفاف بزنس</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <string name="reservation_confirmed">تم تاكيد الحجز</string>
+    <string name="reservation_denied">الموعد غير متوفر الرجاء اختيار موعد اخر</string>
+    <string name="reservation_pending">الموعد قيد المراجعة</string>
 </resources>

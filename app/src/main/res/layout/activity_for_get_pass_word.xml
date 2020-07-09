@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:hint="enter mail"
         android:textColorHint="#F52D56"
-        android:layout_margin="30dp"
+        android:layout_margin="@dimen/_30sdp"
         android:inputType="textEmailAddress"/>
 
 
@@ -21,7 +21,7 @@
         android:id="@+id/change"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="50dp"
+        android:layout_margin="@dimen/_50sdp"
         android:text="change password"
         android:textColor="#fff"
         android:background="#F52D56"

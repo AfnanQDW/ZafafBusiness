@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layoutDirection="ltr"
+    android:layoutDirection="rtl"
     tools:context=".LoginAct">
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="120dp"
+        android:layout_height="@dimen/_120sdp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/logo2"
-        tools:layout_editor_absoluteY="38dp" />
+        tools:layout_editor_absoluteY="38sdp" />
 
     <TextView
         android:id="@+id/textView"
@@ -22,29 +22,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="110dp"
+        android:layout_marginTop="@dimen/_110sdp"
         android:text="تسجيل الدخول الى حسابك"
         android:textColor="#3D1458"
         android:textStyle="bold"
-        android:textSize="20sp"/>
+        android:textSize="@dimen/_14ssp"/>
 
-
-    <EditText
-        android:id="@+id/editphone"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="13dp"
-        android:layout_marginTop="156dp"
-        android:layout_marginEnd="15dp"
-        android:background="@drawable/shapepassword"
-        android:drawableLeft="@drawable/ic_phone"
-        android:hint="رقم الجوال"
-        android:inputType="phone"
-        android:padding="10dp"
-        android:textDirection="rtl" />
 
     <EditText
         android:id="@+id/editTextemail"
@@ -52,14 +35,14 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="224dp"
-        android:layout_marginEnd="15dp"
-        android:background="@drawable/shape2"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_224sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:background="@drawable/selector_edit_text"
         android:drawableLeft="@drawable/ic_email"
         android:hint="البريد الالكتروني"
         android:inputType="textEmailAddress"
-        android:padding="10dp"
+        android:padding="@dimen/_10sdp"
         android:textDirection="rtl" />
 
     <com.google.android.material.textfield.TextInputLayout
@@ -69,23 +52,23 @@
         android:layout_alignParentTop="true"
         app:passwordToggleEnabled="true"
         android:layoutDirection="rtl"
-        android:layout_marginTop="285dp">
+        android:layout_marginTop="@dimen/_285sdp">
 
 
         <EditText
             android:id="@+id/editTextpass"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginStart="15dp"
-            android:layout_marginTop="244dp"
-            android:layout_marginEnd="15dp"
-            android:background="@drawable/shapepassword"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_244sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:background="@drawable/selector_edit_text"
             android:hint="  كلمة المرور"
             android:inputType="textPassword"
-            android:padding="10dp"
+            android:padding="@dimen/_10sdp"
             android:textDirection="rtl" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -98,13 +81,13 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="21dp"
-        android:layout_marginEnd="18dp"
-        android:layout_marginBottom="108dp"
+        android:layout_marginStart="@dimen/_21sdp"
+        android:layout_marginEnd="@dimen/_18sdp"
+        android:layout_marginBottom="@dimen/_108sdp"
         android:background="@drawable/shape"
         android:text="تسجيل دخول"
         android:textColor="#fff"
-        android:textSize="20sp"
+        android:textSize="@dimen/_14ssp"
         android:textStyle="bold" />
 
     <TextView
@@ -113,17 +96,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="59dp"
+        android:layout_marginBottom="@dimen/_59sdp"
         android:text="هل نسيت كلمة المرور؟"
         android:textColor="#F52D56"
-        android:textSize="20sp" />
-
-    <ProgressBar
-        android:id="@+id/progressbar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:visibility="gone" />
+        android:textSize="@dimen/_14ssp" />
 
 </RelativeLayout>
